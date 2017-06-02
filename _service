@@ -4,31 +4,31 @@
   <service name="download_url">
     <param name="host">ftp.freeradius.org</param>
     <param name="protocol">ftp</param>
-    <param name="path">pub/freeradius/freeradius-server-3.0.14.tar.bz2</param>
+    <param name="path">pub/freeradius/old/freeradius-server-3.0.4.tar.bz2</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-fr3/master/freeradius.spec</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius.spec</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-fr3/master/freeradius-logrotate</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-logrotate</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-fr3/master/freeradius-pam-conf</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-pam-conf</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-fr3/master/freeradius-radiusd-init</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-radiusd-init</param>
   </service>
 
 </services>
