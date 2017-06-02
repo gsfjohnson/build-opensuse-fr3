@@ -31,4 +31,214 @@
     <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-radiusd-init</param>
   </service>
 
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-Don-t-overwrite-ip_hton-af-prefix-in-fr_pton4-6.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-Resolve-to-all-families-on-ip_hton-fallback.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-access-union-consistently.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-add-P-option-to-radtest-synopsis.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-add-disable-openssl-version-check.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-added-D-option-to-mirror-radclient.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-connection-fall-through-to-global-module-triggers.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-dhcpclient-Add-a-short-description-to-help-output.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-dont-detach-after-perl_parse.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-dont-swap-uint128-printing-on-be.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-dont-truncate-uint64.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-exec-dont-assume-request-presence-when-logging.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-fix-checks-for-PW_TYPE_FILE_INPUT.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-fix-dhcp-dictionary-loading.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-ignore-SIGTERM-when-firing-stop-and-signal.term.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-logrotate</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-make-grp-tallo-c-too.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-man-remove-client-attribute-description.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-man-remove-references-to-naslist-and-clients.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-mention-eap-md5-in-radtest-synopsis.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-pam-conf</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-postgres-sql.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-prefix-endian-macros.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-rad_counter-Refine-help-message.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-rad_counter-use-heredoc-for-help-message.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-raddb-Comment-on-ipaddr-ipv4addr-ipv6addr-use.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-raddb-Move-trigger.conf-INCLUDE-before-modules.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-raddb-remove-extra-apostrophe-from-trigger.conf.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-raddb-update-triggers-in-trigger.conf.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-raddb-use-appropriate-module-names-in-traps.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-radiusd-init</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-redhat-config.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-talloc-dummy-request.patch</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-tmpfiles.conf</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-fr3/el7/freeradius-valuepair-don-t-remove-unkown-backslash.patch</param>
+  </service>
+
 </services>
