@@ -16,7 +16,7 @@ URL: http://www.freeradius.org/
 %global dist_base freeradius-server-%{version}
 
 Source0: ftp://ftp.freeradius.org/pub/radius/%{dist_base}.tar.bz2
-Source100: radiusd.service
+Source100: freeradius-radiusd-init
 Source102: freeradius-logrotate
 Source103: freeradius-pam-conf
 Source104: freeradius-tmpfiles.conf
@@ -65,10 +65,10 @@ BuildRequires: net-snmp-devel
 BuildRequires: net-snmp-utils
 BuildRequires: readline-devel
 BuildRequires: libpcap-devel
-BuildRequires: systemd-units
+#BuildRequires: systemd-units
 BuildRequires: libtalloc-devel
 BuildRequires: pcre-devel
-BuildRequires: tncfhh-devel
+#BuildRequires: tncfhh-devel
 
 %if ! 0%{?rhel}
 BuildRequires: libyubikey-devel
@@ -275,7 +275,7 @@ make install R=$RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/var/log/radius/radacct
 touch $RPM_BUILD_ROOT/var/log/radius/{radutmp,radius.log}
 
-install -D -m 755 %{SOURCE100} $RPM_BUILD_ROOT/%{_unitdir}/radiusd.service
+install -D -m 755 %{SOURCE100} $RPM_BUILD_ROOT/%{initddir}/radiusd
 install -D -m 644 %{SOURCE102} $RPM_BUILD_ROOT/%{_sysconfdir}/logrotate.d/radiusd
 install -D -m 644 %{SOURCE103} $RPM_BUILD_ROOT/%{_sysconfdir}/pam.d/radiusd
 
@@ -384,7 +384,7 @@ exit 0
 # system
 %config(noreplace) %{_sysconfdir}/pam.d/radiusd
 %config(noreplace) %{_sysconfdir}/logrotate.d/radiusd
-%{_unitdir}/radiusd.service
+%{initddir}/radiusd
 %config %{_sysconfdir}/tmpfiles.d/radiusd.conf
 %dir %attr(710,radiusd,radiusd) %{_localstatedir}/run/radiusd
 %dir %attr(700,radiusd,radiusd) %{_localstatedir}/run/radiusd/tmp
@@ -624,7 +624,7 @@ exit 0
 %endif
 %{_libdir}/freeradius/rlm_eap_sim.so
 %{_libdir}/freeradius/rlm_eap_tls.so
-%{_libdir}/freeradius/rlm_eap_tnc.so
+#%{_libdir}/freeradius/rlm_eap_tnc.so
 %{_libdir}/freeradius/rlm_eap_ttls.so
 %{_libdir}/freeradius/rlm_exec.so
 %{_libdir}/freeradius/rlm_expiration.so
