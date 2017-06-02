@@ -54,6 +54,7 @@ Patch30: freeradius-Don-t-overwrite-ip_hton-af-prefix-in-fr_pton4-6.patch
 Patch31: freeradius-raddb-Comment-on-ipaddr-ipv4addr-ipv6addr-use.patch
 
 %global docdir %{?_pkgdocdir}%{!?_pkgdocdir:%{_docdir}/%{name}-%{version}}
+%define initddir %{?_initddir:%{_initddir}}%{!?_initddir:%{_initrddir}}
 
 BuildRequires: autoconf
 BuildRequires: gdbm-devel
