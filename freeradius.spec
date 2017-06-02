@@ -77,10 +77,10 @@ BuildRequires: ykclient-devel
 
 Requires: openssl >= 1.0.1e-34
 Requires(pre): shadow-utils glibc-common
-Requires(post): systemd-sysv
-Requires(post): systemd-units
-Requires(preun): systemd-units
-Requires(postun): systemd-units
+#Requires(post): systemd-sysv
+#Requires(post): systemd-units
+#Requires(preun): systemd-units
+#Requires(postun): systemd-units
 
 %description
 The FreeRADIUS Server Project is a high performance and highly configurable
