@@ -1,0 +1,8 @@
+
+<services>
+  <service name="download_url">
+    <param name="host">ftp.freeradius.org</param>
+    <param name="protocol">ftp</param>
+    <param name="path">pub/freeradius/freeradius-server-3.0.13.tar.bz2</param>
+  </service>
+</services>
