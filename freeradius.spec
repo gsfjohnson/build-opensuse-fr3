@@ -7,7 +7,7 @@ Group: System Environment/Daemons
 URL: http://www.freeradius.org/
 
 # Is elliptic curve cryptography supported?
-%if 0%{?rhel} >= 7 || 0%{?fedora} >= 20
+%if 0%{?rhel} >= 6 || 0%{?fedora} >= 20
 %global HAVE_EC_CRYPTO 1
 %else
 %global HAVE_EC_CRYPTO 0
